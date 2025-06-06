@@ -1,0 +1,12 @@
+#metadata-container {
+    background-color: rgba(14,16,21,0.7);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#now-playing {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
