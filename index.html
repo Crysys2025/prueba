@@ -164,7 +164,7 @@
                             const artist = data.now_playing.artist;
                             const art = data.now_playing.art;
                             
-                            $("#now-playing").html(`<strong>EN VIVO:</strong> ${artist} - ${song}`);
+                            $("#songtitle").html(`<strong>EN VIVO:</strong> ${artist} - ${song}`);
                             
                             if(art) {
                                 $("#cover-art").attr("src", art).show();
